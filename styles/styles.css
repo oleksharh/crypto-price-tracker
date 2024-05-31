@@ -1,0 +1,158 @@
+/* 
+light-cyan: #66FCF1;
+dark-cyan: #45A29E;
+red-saturated: #FF0000;
+silver: #C5C6C7;
+dark-gray: #0B0C10;
+blue-gray: #1F2833; 
+*/
+
+QWidget {
+    background-color: #0B0C10;
+}
+
+QFrame#frame_2 {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #1F2833;
+}
+
+QFrame#frame_3 {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #1F2833;
+}
+
+QFrame#frame_4 {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #1F2833;
+}
+
+QFrame#frame_5 {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #1F2833;
+}
+
+QFrame#frame_6 {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #1F2833;
+}
+
+QFrame#frame_7 {
+    border: 0px;
+    border-radius: 10px;
+    background-color: #1F2833;
+}
+
+QFrame#frame_8 {
+    border: 0px;
+    border-radius: 10px;
+    background-color: #1F2833;
+}
+
+QPushButton {
+    border: 0px solid black;
+    border-radius: 10px;
+    background-color: #66FCF1;
+    color: #0B0C10;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+}
+
+QPushButton:hover {
+    border: 1px solid #66FCF1;
+    border-radius: 10px;
+    background-color: #45A29E;
+    color: #0B0C10;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+} 
+
+QPushButton#close_button {
+    border: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+    color: #66FCF1;
+    font-weight: bold;
+    font-size: 14px;
+} 
+
+QPushButton#close_button:hover {
+    background-color: #FF0000;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+QPushButton#minimize_button {
+    border: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+    color: #C5C6C7;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+QPushButton#minimize_button:hover {
+    color: #0B0C10;
+    background-color: #C5C6C7;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+QLabel#icon_label { 
+    padding: 3px;
+}
+
+QLabel {
+    background-color: transparent;
+    color: #66FCF1;
+    font-family: "Nunito", sans-serif;
+}
+
+QLabel#label_description_src {
+    background-color: transparent;
+    color: #C5C6C7;
+    font-family: "Nunito", sans-serif;
+}
+
+QLabel#label_description_dest {
+    background-color: transparent;
+    color: #C5C6C7;
+    font-family: "Nunito", sans-serif;
+}
+
+QLabel#other_notice_label {
+    background-color: transparent;
+    color: #C5C6C7;
+    font-family: "Nunito", sans-serif;
+}
+
+QLineEdit {
+    background-color: #0B0C10;
+    border: 0px;
+    border-radius: 10px;
+    color: #C5C6C7;
+}
+
+QCheckBox {
+    color: #C5C6C7;
+    background-color: transparent;
+    font-family: "Nunito", sans-serif;
+}
+
+QCheckBox::indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #0B0C10;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #66FCF1;
+}
